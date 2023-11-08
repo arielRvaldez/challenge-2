@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+}
+
+body {
+    background-color: #c8d0ef;
+}
+
+h1 {
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.header {
+    padding: 0;
+    margin: 0;
+    float: inline-end;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 0, 0.5),
+        rgba(0, 0, 255, 0.5)
+    ), url("https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?size=626&ext=jpg")
+    color: rgb(55, 52, 139);
+}
+
+.header h1 {
+    display: inline-flex;
+    font-size: 50px;   
+}
+
+.header div {
+    padding-top: 0;
+    margin-right: 0%;
+    float: inline-end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.header div ul {
+    list-style-type: grid;
+}
+
+.header div ul li {
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-inline: 7 px;
+    margin-bottom: 15px;
+    padding-block-start: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: rgb(194, 71, 255);
+}
+
+p {
+    font-size: 17px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    border-left-style: solid;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 8px 8px 8px 32px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-display: fallback;
+    background-image: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
