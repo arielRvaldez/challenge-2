@@ -6,30 +6,37 @@
   }
 
 * {
+    margin: 0;
+    text-decoration: none;
     box-sizing: border-box;
-    width: 100%;
     padding: 5px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
     background-color: #c8d0ef;
     margin: 0;
+    padding: 5px;
 }
 
 .content {
-    padding: 0px;
-    margin: 0px;
+    padding-top: 10px;
+    margin-top: 20px;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
+    max-width: 960px;
     font-size: 50px;
-    color: rgb(65, 49, 171);
+    color: rgb(9, 9, 10);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: #7eb3de;
-    background-image: url(../images/background-header.jpg);
+    background-color: #838dd7;
+    background-image: url(../images/portfolio2.jpg);
     background-size: cover;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -49,19 +56,20 @@ h3 {
 
 .nav {
    overflow: hidden;
-   background: #423dcc; 
+   background: #838dd7; 
 }
+
 .nav a{
     float: right;
     color:#000;
     text-align: center;
     padding: 20px 16px;
     font-size: 14px;
-    width: 100px;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .nav a:hover{
     background: lightblue;
     color: #fff;
@@ -89,7 +97,6 @@ p {
 
 .hero {
     height: 800px;
-    width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/portfolio2.jpg");
     background-size: cover;
@@ -107,9 +114,9 @@ p {
 }
 
 .card-column {
-    width: 50%;
+    width: 100%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 20px;
     padding: 8px 8px 8px 32px;
     height: 300px;
@@ -128,23 +135,20 @@ p {
     background:#0072bb;
 }
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.footer {
+    padding: 30px;
+    clear: both;
+    font-weight: bold;
+    font-family: font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.footer h2 {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 992px) {
-    header, content {
+    h1, content, background-image {
       width: 50%;
     }
 }
@@ -153,15 +157,4 @@ p {
     footer {
       width: 50%;
     }
-}
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
