@@ -21,7 +21,6 @@ body {
     margin: 0px;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: 
 }
 
 h1 {
@@ -34,6 +33,10 @@ h1 {
     background-size: cover;
     padding-top: 0px;
     padding-bottom: 0px;
+}
+
+h3 {
+    background-image: url("../images/portfolio2.jpg");
 }
 
 .container {
@@ -77,36 +80,18 @@ h1 {
     font-size: 30px;
 }
 
-.header div ul {
-    list-style-type: grid; ---
-}
-
-.header div ul li {
-    display: inline-flex;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-inline: 7 px;
-    margin-bottom: 15px;
-    padding-block-start: 10px;
-}
-
-a {
-    color: black;
-    text-decoration: rgb(194, 71, 255);
-}
-
 p {
-    font-size: 17px;
-    width: 100%;
-    margin-inline-end: 50%;
+    font-size: 20px;
+    width: 85%;
+    padding-top: 0;
+    margin-left: 5%;  
 }
 
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/portfolio2.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -118,7 +103,7 @@ p {
 
 .float-right {
     float: right;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
 .card-column {
@@ -133,12 +118,14 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
     font-display: fallback;
-    background-image: #0072bb;
+    background-color: #7eb3de;
+    background-image: url("../images/portfolio2.jpg");
     color: #3e468a;
 }
 
 .card-reader img {
     max-height: 200px;
+    background:#0072bb;
 }
 
 .search-engine-optimization h2 {
